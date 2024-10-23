@@ -1,3 +1,5 @@
+@import './globals.scss';
+
 :root,
 body {
     // Basic global defaults
@@ -19,7 +21,7 @@ body {
 .page {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem 2rem 6rem;
+    padding: $headerHeight 2rem;
 }
 
 h1 {
