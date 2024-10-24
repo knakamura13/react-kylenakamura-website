@@ -26,6 +26,7 @@
             "@store/": ["src/store/"],
             "@store/*": ["src/store/*"]
         },
+        "jsx": "react"
     },
     "include": ["src"]
 }

@@ -15,7 +15,14 @@ export default defineConfig({
         }
     },
     server: {
-        host: '0.0.0.0',  // Ensures the server listens on all available interfaces
-        port: process.env.PORT ? parseInt(process.env.PORT) : 3000,  // Use the PORT environment variable or fallback to 3000
+        host: '0.0.0.0', // Ensures the server listens on all available interfaces
+        port: process.env.PORT ? parseInt(process.env.PORT) : 3000 // Use the PORT environment variable or fallback to 3000
     },
+    css: {
+        preprocessorOptions: {
+            scss: {
+                api: 'modern-compiler'
+            }
+        }
+    }
 });

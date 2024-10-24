@@ -1,4 +1,5 @@
 import React from 'react';
+import './SamplePage.scss';
 
 const SamplePage: React.FC = () => {
     return (
